@@ -63,7 +63,7 @@ VALUES ('{value.Name}', '{value.Type}', '{value.Provider}', '{value.Quantity}', 
 				command.ExecuteNonQuery();
 			}
 			catch {
-                Console.WriteLine("Cant add taht value to database");
+                Console.WriteLine("Cant add that value to database");
 				return;
             }
 
